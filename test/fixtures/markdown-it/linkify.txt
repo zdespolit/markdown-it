@@ -47,3 +47,19 @@ mailto:test@example.com
 <p><a href="mailto:test@example.com">test@example.com</a></p>
 <p><a href="mailto:test@example.com">mailto:test@example.com</a></p>
 .
+
+
+priority over emphasis
+.
+test http://example.com/test_-_this_is_not_italic_-_test.
+.
+<p>test <a href="http://example.com/test_-_this_is_not_italic_-_test">http://example.com/test_-_this_is_not_italic_-_test</a>.</p>
+.
+
+
+priority over emphasis 2
+.
+test __http://example.com/test_-_this_is_not_italic_-_test__.
+.
+<p>test <strong><a href="http://example.com/test_-_this_is_not_italic_-_test">http://example.com/test_-_this_is_not_italic_-_test</a></strong>.</p>
+.
